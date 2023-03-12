@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:ital@1&family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(192, 188, 188);
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    height: 60vh;
+    transition: 0.3s ease-in;
+    position:absolute;
+    
+}
+.sidebar nav {
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: 1px;
+    font-size: 30px;
+    padding: 20px;
+   
+
+}
+.main{
+    background-color: rgb(247, 248, 244);
+    width: 75%;
+    margin-right: 40%;
+}
+.Container{
+    display: flex;
+
+}
+.InfoContainer{
+  /*background-color: rgb(219, 23, 114);*/
+  height: 688vh;
+  width: 80vw;
+  margin: 147px auto;
+  justify-content: space-around;
+  
+}
+.devInfo{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+}
+
+ .Hello{
+    font-size: 2em;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ }
+ .name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ }
+ .about{
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .moreabout{
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .button{
+    margin-top: 2.2em;
+    font-size: 2em;
+ }
+ .btn {
+    padding: 10px;
+    border-radius: 100px;
+     color: white;
+     background: darkorange;
+     font-weight: bold;
+     font-size: 16px;
+     margin:0 5px;
+     cursor: pointer;
+
+    
+ }
+ .btn-sm{
+    font-size: 15px;
+    padding: 7px 13px;
+    margin: 10px 0;
+ }
+ .buttons button:hover{
+    background-color: whitesmoke;
+    color: rgb(24, 83, 83);
+ }
+.devPic img {
+    height: 70vh;
+    margin-left: 20%;
+    position:absolute;
+    /* top: 700px; */
+    top: 0px;
+display: flex;
+}
+
+.contactform{
+    padding-top: 150px;
+    padding: 0 100px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+margin: 50px 100px;
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12PX 0;
+
+}
+.contactform form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    border-radius: 20px;
+
+}
+.contactform form div input{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailhelp{
+    font-size:  0 5px;
+    color: midnightblue;
+    margin: 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+               width: 24px;
+               margin: 0 3px;
+}
+.blogitem {
+        margin: 20px;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+}
+.blogcontainer{
+    margin: 10px 100px;
+    margin-top: 40px;
+    margin-bottom: 0 10px;
+}
+h1{
+       margin: 25px;
+       font-family: 'Lobster Two', cursive;
+       font-family: 'Poppins', sans-serif;
+       font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.intro{
+    margin: 20px 100px;
+    
+}
+.intro h2{
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
+
+}
+
+.intro p{
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+}
+.skillcontainer{
+    padding: 30px;
+}
+.skill{
+    width: 90px;
+    height: 12px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.hundred{
+    width: 265px;
+}
+.fifty{
+    width: 212px;
+    background-color: blue;
+}
+.t5{
+    width: 75px;
+    background-color: blueviolet;
+}
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+      margin-left:280px;
+      margin-top: 8px;
+}
+
+ 
+@media (max-width:1450px){
+    
+   /* background-color:red;*/
+}
+.devInfo{
+    font-size: 2em;
+}
+.devPic{
+    display: absolute;
+}
+.intro, .blogcontainer, .contactform{
+    margin: 50px 8px;
+}
+
+
+
+
+
